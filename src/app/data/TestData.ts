@@ -180,17 +180,9 @@ export class TestData {
             category: TestData.categories[7],
             date: new Date('2019-10-11')
 
-        },
-
-        {
-            id: 20,
-            title: 'Футбол с сотрудниками',
-            priority: TestData.priorities[0],
-            completed: false,
-            category: TestData.categories[4],
-            date: new Date('2019-03-17')
-
         }
+
+
 
     ];
 
