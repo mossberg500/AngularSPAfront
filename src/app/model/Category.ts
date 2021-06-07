@@ -1,14 +1,9 @@
 export class Category {
-    id: number;
-    title: string;
-    completedCount : number;
-    uncompletedCount : number;
+  id: number;
+  title: string;
 
-  // ? не обязательный для передачи параметров
-  constructor(id: number, title: string, completedCount?: number, uncompletedCount?: number) {
+  constructor(id: number, title: string) {
     this.id = id;
     this.title = title;
-    this.completedCount = completedCount;
-    this.uncompletedCount = uncompletedCount;
   }
 }
